@@ -5,14 +5,25 @@
 .container {
     width: min(100%, 1440px);
     margin: auto;
+    padding-top: 96px;
 }
 
+/* header */
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 16px 94px;
     background: var(--main-dark-color);
+
+    position: fixed;
+    max-width: inherit;
+    width: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 0;
+    z-index: 1;
+
 }
 
 .header_list {
@@ -20,7 +31,9 @@ header {
     column-gap: 72px;
 }
 
-
+.burger_icon {
+    display: none;
+}
 
 .header_list_item_link {
     color: var(--secondary-txt-color);
