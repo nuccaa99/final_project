@@ -1,7 +1,7 @@
 @media (max-width: 1025px) {
 
     /* header */
-    .burger_icon {
+    .burger_icon_link {
         display: block;
     }
     .header_nav {
