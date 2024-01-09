@@ -4,6 +4,7 @@
     .burger_icon_link {
         display: block;
     }
+
     .header_nav {
         display: none;
     }
@@ -14,5 +15,16 @@
     /* header */
     header {
         padding-inline: 32px;
+    }
+
+    /* hero section */
+
+    .hero {
+        height: 400px;
+    }
+
+    .hero_content {
+        margin-top: 32px;
+
     }
 }
