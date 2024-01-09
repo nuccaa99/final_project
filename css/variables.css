@@ -1,0 +1,10 @@
+:root {
+    --main-dark-color: #012426;
+    --main-light-color: #05BCCA;
+    --secondary-dark-color: #1A1A1A;
+    --secondary-light-color: #F5F5F5;
+    --card-bg-color: #2C4246;
+    --card-txt-color: #D9D9D9;
+    --font: 'Inter', sans-serif;
+    --secondary-txt-color: #A1C3C9;
+}
