@@ -1,3 +1,21 @@
+@media (max-width: 1221px) {
+
+    /* popular guitars section */
+
+    .section_popular {
+        padding-inline: 32px 0px;
+    }
+
+    .cards_container {
+        overflow-x: scroll;
+        padding-inline: 0 32px;
+    }
+
+    .card {
+        flex: 1 0 289px;
+    }
+}
+
 @media (max-width: 1025px) {
 
     /* header */
@@ -8,23 +26,22 @@
     .header_nav {
         display: none;
     }
+
+    /* popular guitars section */
+
+
 }
 
-@media (max-width: 745px) {
 
-    /* header */
-    header {
-        padding-inline: 32px;
+@media (max-width: 875px) {
+
+    /* section types */
+
+    .types_img_container {
+        padding-block: 48px;
     }
 
-    /* hero section */
-
-    .hero {
-        height: 400px;
-    }
-
-    .hero_content {
-        margin-top: 32px;
-
+    .img_wrapper {
+        width: 330px;
     }
 }

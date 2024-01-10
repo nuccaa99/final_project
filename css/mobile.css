@@ -26,3 +26,21 @@
         line-height: 32px;
     }
 }
+
+@media (max-width: 375px) {
+
+    .upper_section,
+    .lower_section {
+        column-gap: 19px;
+    }
+
+    .img_wrapper {
+        width: 120px;
+        height: 110px;
+    }
+
+    .img_wrapper h3 {
+        font-size: 14px;
+        line-height: 22px;
+    }
+}

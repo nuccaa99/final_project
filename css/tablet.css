@@ -1,0 +1,40 @@
+@media (max-width: 745px) {
+
+    /* header */
+    header {
+        padding-inline: 32px;
+    }
+
+    /* hero section */
+
+    .hero {
+        height: 400px;
+    }
+
+    .hero_content {
+        margin-top: 32px;
+
+    }
+}
+
+@media (max-width: 700px) {
+
+    /* section types */
+
+    .types_img_container {
+        padding-block: 32px;
+    }
+
+    .img_wrapper {
+        width: 170px;
+        height: 160px;
+        padding: 8px;
+    }
+
+    
+
+    .img_wrapper h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
