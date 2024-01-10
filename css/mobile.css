@@ -39,7 +39,7 @@
     .section_popular {
         padding-inline: 8px 0px;
     }
-    
+
 
     .section_popular_title {
         font-size: 24px;
@@ -54,6 +54,7 @@
 
 @media (max-width: 375px) {
 
+    /* section types */
     .upper_section,
     .lower_section {
         column-gap: 19px;
@@ -67,5 +68,24 @@
     .img_wrapper h3 {
         font-size: 14px;
         line-height: 22px;
+    }
+
+    /* mail_article */
+
+    .mail_article_title {
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+    .email_input {
+        width: 250px;
+
+    }
+
+    .email_input_btn {
+        padding: 15px 7px 14px;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 19px;
     }
 }

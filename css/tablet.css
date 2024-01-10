@@ -31,10 +31,31 @@
         padding: 8px;
     }
 
-    
+
 
     .img_wrapper h3 {
         font-size: 16px;
         line-height: 24px;
+    }
+}
+
+@media (max-width: 550px) {
+
+    /* mail_article */
+
+    .mail_article {
+        padding-block: 32px;
+        row-gap: 24px;
+
+    }
+
+    .mail_article_title {
+        font-size: 24px;
+        line-height: 32px;
+    }
+
+    .email_input {
+        width: 320px;
+
     }
 }
