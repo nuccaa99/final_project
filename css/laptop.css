@@ -33,6 +33,15 @@
 }
 
 
+@media (max-width: 900px) {
+
+    /* home footer */
+    .footer_lists_container {
+        column-gap: 149px;
+    }
+}
+
+
 @media (max-width: 875px) {
 
     /* section types */

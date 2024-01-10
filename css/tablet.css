@@ -37,6 +37,28 @@
         font-size: 16px;
         line-height: 24px;
     }
+
+    /* home footer */
+
+    .home_footer {
+        padding-block: 32px;
+        row-gap: 48px;
+    }
+
+    .footer_lists_container {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .footer_list_wrapper {
+        align-items: center;
+    }
+
+    .footer_list {
+        align-items: center;
+    }
+
+
 }
 
 @media (max-width: 550px) {
