@@ -27,7 +27,7 @@
         display: none;
     }
 
-    /* popular guitars section */
+
 
 
 }
@@ -43,5 +43,10 @@
 
     .img_wrapper {
         width: 330px;
+    }
+
+    /* popular guitars section */
+    .section_popular {
+        padding-block: 48px;
     }
 }
