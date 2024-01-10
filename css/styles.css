@@ -304,8 +304,9 @@ header {
 }
 
 .email_input {
+    outline: none;
     width: 480px;
-    padding: 15px  0 14px 8px;
+    padding: 15px 0 14px 8px;
     color: var(--secondary-txt-color);
     font-family: var(--font);
     font-size: 16px;
@@ -328,5 +329,88 @@ header {
     border: none;
     position: absolute;
     right: 0;
-    
+
+}
+
+/* footer */
+
+.home_footer {
+    background: var(--card-bg-color);
+    padding-block: 48px 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 64px;
+
+}
+
+.footer_lists_container {
+    display: flex;
+    justify-content: center;
+    column-gap: 223px;
+}
+
+.footer_list_wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 28px;
+}
+
+.footer_list_title {
+    color: var(--card-txt-color);
+    font-family: var(--font);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    position: relative;
+}
+
+.footer_list_title::after {
+    content: "";
+    width: 80px;
+    height: 2px;
+    background: var(--card-txt-color);
+    position: absolute;
+    bottom: -4px;
+    left: 0;
+
+}
+
+.footer_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.footer_list_item_link {
+    color: var(--card-txt-color);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.footer_list_item.links {
+    display: flex;
+    flex-direction: row;
+    column-gap: 16px;
+}
+
+.fa-brands {
+    font-size: 32px;
+    color: var(--card-txt-color);
+}
+
+.rights {
+    display: flex;
+    align-items: center;
+    column-gap: 4px;
+}
+
+.rights span {
+    color: var(--card-txt-color);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
