@@ -71,7 +71,7 @@ header {
 
 .hero {
     height: 480px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/hero.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/home/hero.png), lightgray 50% / cover no-repeat;
     background-position: center;
     display: flex;
     justify-content: center;
@@ -145,7 +145,7 @@ header {
 
 
 .img_wrapper.classical {
-    background: url(../images/rec1.png);
+    background: url(../images/home/rec1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -153,7 +153,7 @@ header {
 }
 
 .img_wrapper.acoustic {
-    background: url(../images/rec2.png);
+    background: url(../images/home/rec2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -161,7 +161,7 @@ header {
 }
 
 .img_wrapper.electric {
-    background: url(../images/rec3.png);
+    background: url(../images/home/rec3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -169,7 +169,7 @@ header {
 }
 
 .img_wrapper.base {
-    background: url(../images/rec4.png);
+    background: url(../images/home/rec4.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -278,7 +278,7 @@ header {
 /* mail_article */
 
 .mail_article {
-    background: linear-gradient(0deg, rgba(26, 26, 26, 0.40) 0%, rgba(26, 26, 26, 0.40) 100%), url(../images/mailing_cover.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(26, 26, 26, 0.40) 0%, rgba(26, 26, 26, 0.40) 100%), url(../images/home/mailing_cover.png), lightgray 50% / cover no-repeat;
     background-position: center;
     padding-block: 106px;
     display: flex;
