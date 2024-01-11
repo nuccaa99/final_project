@@ -577,3 +577,61 @@ header {
     font-weight: 400;
     line-height: 24px;
 }
+
+/* contact container */
+
+.contact_container {
+    background: url(../images/contact_cover.png), lightgray 50% / cover no-repeat;
+    padding: 96px 94px 115px 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.contact_wrapper {
+    width: 616px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+}
+
+.contact_title {
+    color: #FFF;
+    font-family: var(--font);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.contact_info {
+    padding: 35px 40px;
+    background: var(--card-bg-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact_info_content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 24px;
+}
+
+.contact_info_content_link {
+    display: flex;
+    column-gap: 16px;
+    align-items: center;
+}
+
+.contact_info_content_link i {
+    font-size: 24px;
+    color: var(--card-txt-color);
+}
+
+.contact_info_content_link span {
+    color: var(--card-txt-color);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
