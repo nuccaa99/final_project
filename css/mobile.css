@@ -50,6 +50,23 @@
     .cards_container {
         padding-inline: 0 8px;
     }
+
+    .pages_container {
+        column-gap: 45px;
+    }
+
+    .page_btn {
+        display: none;
+    }
+
+    .page_btn_mobile {
+        display: block;
+        border: none;
+        display: flex;
+        align-items: center;
+        padding: 8px 14px;
+        border-radius: 8px;
+    }
 }
 
 @media (max-width: 375px) {

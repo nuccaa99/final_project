@@ -11,7 +11,7 @@ a {
 .container {
     width: min(100%, 1440px);
     margin: auto;
-    padding-top: 96px;
+    padding-top: 98px;
 }
 
 /* header */
@@ -259,7 +259,7 @@ header {
 .fa-solid.fa-star {
     width: 16px;
     height: 16px;
-    color: #cc7438;
+    color: #C46A2B;
 }
 
 .price_wrapper {
@@ -409,6 +409,169 @@ header {
 
 .rights span {
     color: var(--card-txt-color);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+/* catalog section */
+
+.section_catalog {
+    background: var(--secondary-dark-color);
+    padding-block: 36px;
+    border-top: 2px solid var(--main-light-color);
+    display: flex;
+    justify-content: center;
+}
+
+.catalog_list {
+    display: flex;
+}
+
+.catalog_list_item {
+    padding: 18px 24px;
+    border: 1px solid var(--main-light-color);
+}
+
+.catalog_list_item_link {
+    color: #FFF;
+    font-family: var(--font);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 37px;
+}
+
+.focus {
+    background: var(--secondary-txt-color);
+}
+
+.focus .catalog_list_item_link {
+    color: var(--card-bg-color);
+}
+
+/* guitars catalog container */
+
+.guitars_catalog_container {
+    background: var(--main-dark-color);
+    display: flex;
+    flex-direction: column;
+    row-gap: 64px;
+    padding: 96px 94px;
+}
+
+.filter_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filter_txt {
+    color: var(--card-txt-color);
+    font-family: var(--font);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+}
+
+.sort_wrapper,
+.filter_wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.sort_wrapper {
+    column-gap: 32px;
+}
+
+.filter_wrapper {
+    column-gap: 16px;
+}
+
+.sort_btn {
+    border: none;
+    border-radius: 4px;
+    background: var(--secondary-txt-color);
+    padding: 4px 8px;
+    display: flex;
+    align-items: center;
+    gap: 33px;
+}
+
+.sort_btn span {
+    color: var(--card-bg-color);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.sort_btn_mobile {
+    display: none;
+}
+
+.guitar_cards_container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px 20px;
+}
+
+
+.catalog.card {
+    border: none;
+    padding: 0;
+}
+
+.catalog.card .card_img {
+    height: 298px;
+}
+
+.catalog.card .card_txt {
+    padding-inline: 8px;
+}
+
+.catalog.review_container {
+    padding: 0 8px 16px 8px;
+}
+
+.pages_container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 48px;
+}
+
+.page_btn {
+    border: none;
+    display: flex;
+    align-items: center;
+    column-gap: 16px;
+    padding: 8px;
+    border-radius: 8px;
+    color: var(--card-txt-color);
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.page_btn_mobile {
+    display: none;
+}
+
+.prev {
+    background: #C46A2B;
+}
+
+.next {
+    background: var(--main-light-color);
+}
+
+.page_btn_txt {
+    color: #FFF;
     font-family: var(--font);
     font-size: 16px;
     font-weight: 400;
