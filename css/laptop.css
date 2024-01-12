@@ -84,4 +84,11 @@
     .section_popular {
         padding-block: 48px;
     }
+
+    /* contact container */
+    .contact_container {
+        padding: 48px 64px;
+        justify-content: center;
+
+    }
 }

@@ -61,22 +61,119 @@
                     <div class="contact_info_content">
                         <a href="mailto:guitar.center@gmail.com" class="contact_info_content_link">
                             <i class="fa-solid fa-envelope"></i>
-                            <span>guitar.center@gmail.com</span>
+                            <span class="hidden">guitar.center@gmail.com</span>
                         </a>
                         <a href="tel:+(32)2 56 78 98" class="contact_info_content_link">
                             <i class="fa-solid fa-mobile"></i>
-                            <span>+(32)2 56 78 98</span>
+                            <span class="hidden">+(32)2 56 78 98</span>
                         </a>
                     </div>
-                    <img src="images/map.svg" alt="map pin logo">
+                    <a href="https://maps.app.goo.gl/As7k5kks3nHDGfms6" target="_blank">
+                        <img src="images/map.svg" alt="map pin logo" class="map_pin_logo_img">
+                    </a>
                 </div>
                 <div class="form_container">
                     <form class="contact_form">
-                        
+                        <div class="main_info_inputs">
+                            <input type="text" class="contact_form_input" name="NAME" placeholder="Name">
+                            <input type="email" class="contact_form_input" name="EMAIL" placeholder="Email">
+                        </div>
+
+                        <textarea name="message" id="message" placeholder="Message"
+                            class="contact_form_textarea"></textarea>
+                        <button type="submit" class="contact_form_btn">SEND MESSAGE</button>
                     </form>
+                    <div class="map_container">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.91141204538!2d44.7925895755945!3d41.70084807649408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40440d8aa7e6f759%3A0x970fa07fa1865336!2sAlma%20Boutique%20Hotel!5e0!3m2!1ska!2sge!4v1705061134581!5m2!1ska!2sge"
+                            style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <div class="footer_list_item links">
+                            <a href="https://www.facebook.com/" target="_blank">
+                                <i class="fa-brands fa-square-facebook contact"></i>
+                            </a>
+                            <a href="https://www.whatsapp.com/" target="_blank">
+                                <i class="fa-brands fa-square-whatsapp contact"></i>
+                            </a>
+                            <a href="https://www.instagram.com/" target="_blank">
+                                <i class="fa-brands fa-square-instagram contact"></i>
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
+
+        <!-- footer -->
+        <footer class="home_footer">
+            <div class="footer_lists_container">
+                <div class="footer_list_wrapper">
+                    <h3 class="footer_list_title">Brands</h3>
+                    <nav>
+                        <ul class="footer_list">
+                            <li class="footer_list_item">
+                                <a href="" class="footer_list_item_link">Fender</a>
+                            </li>
+                            <li class="footer_list_item">
+                                <a href="" class="footer_list_item_link">Gibson</a>
+                            </li>
+                            <li class="footer_list_item">
+                                <a href="" class="footer_list_item_link">Jockson</a>
+                            </li>
+                            <li class="footer_list_item">
+                                <a href="" class="footer_list_item_link">Ibanez</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer_list_wrapper">
+                    <h3 class="footer_list_title">Information</h3>
+                    <nav>
+                        <ul class="footer_list">
+                            <li class="footer_list_item">
+                                <a href="" class="footer_list_item_link">Blog</a>
+                            </li>
+                            <li class="footer_list_item">
+                                <a href="" class="footer_list_item_link">Delivery</a>
+                            </li>
+                            <li class="footer_list_item">
+                                <a href="" class="footer_list_item_link">About us</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer_list_wrapper">
+                    <h3 class="footer_list_title">Contact</h3>
+                    <nav>
+                        <ul class="footer_list">
+                            <li class="footer_list_item">
+                                <a href="https://maps.app.goo.gl/As7k5kks3nHDGfms6" target="_blank"
+                                    class="footer_list_item_link">Tbilisi, str, Rustaveli 24</a>
+                            </li>
+                            <li class="footer_list_item">
+                                <a href="tel: +(32)2 56 78 98" class="footer_list_item_link">+(32)2 56 78 98</a>
+                            </li>
+                            <li class="footer_list_item links">
+                                <a href="https://www.facebook.com/" target="_blank">
+                                    <i class="fa-brands fa-square-facebook"></i>
+                                </a>
+                                <a href="https://www.whatsapp.com/" target="_blank">
+                                    <i class="fa-brands fa-square-whatsapp"></i>
+                                </a>
+                                <a href="https://www.instagram.com/" target="_blank">
+                                    <i class="fa-brands fa-square-instagram"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="rights">
+                <img src="images/home/cr.svg" alt="copy right">
+                <span>All right reserved.2025.</span>
+            </div>
+        </footer>
+
     </div>
 </body>
 

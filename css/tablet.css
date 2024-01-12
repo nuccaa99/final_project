@@ -46,6 +46,65 @@
     .catalog.card:nth-last-child(-n+8) {
         display: none;
     }
+
+    /* contact container */
+
+    .contact_container {
+        padding: 32px 40px;
+
+    }
+    .contact_wrapper {
+        row-gap: 33px;
+    }
+
+    .contact_title {
+        font-size: 16px;
+        line-height: 24px;
+        margin-bottom: 8px;
+    }
+
+    .hidden {
+        display: none;
+    }
+
+    .contact_info {
+        padding: 16px;
+        align-items: center;
+        justify-content: center;
+        column-gap: 24px;
+    }
+
+    .map_pin_logo_img {
+        width: 24px;
+        height: 24px;
+    }
+
+    .contact_info_content {
+        flex-direction: row;
+        column-gap: 24px;
+    }
+
+
+    .form_container {
+        flex-direction: column;
+    }
+
+
+    .main_info_inputs {
+        column-gap: 13px;
+    }
+
+
+   
+
+    .map_container {
+        row-gap: 32px;
+        align-items: center;
+    }
+
+    
+
+    
 }
 
 @media (max-width: 700px) {
@@ -93,8 +152,9 @@
 }
 
 @media (max-width: 647px) {
-     /* guitars catalog container */
-     .catalog.card:nth-last-child(-n+12) {
+
+    /* guitars catalog container */
+    .catalog.card:nth-last-child(-n+12) {
         display: none;
     }
 }

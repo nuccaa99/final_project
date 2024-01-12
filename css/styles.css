@@ -7,6 +7,11 @@ a {
     cursor: pointer;
 }
 
+input,
+textarea {
+    outline: none;
+}
+
 /* container */
 .container {
     width: min(100%, 1440px);
@@ -257,8 +262,7 @@ header {
 }
 
 .fa-solid.fa-star {
-    width: 16px;
-    height: 16px;
+    font-size: 16px;
     color: #C46A2B;
 }
 
@@ -304,7 +308,7 @@ header {
 }
 
 .email_input {
-    outline: none;
+
     width: 480px;
     padding: 15px 0 14px 8px;
     color: var(--secondary-txt-color);
@@ -582,6 +586,7 @@ header {
 
 .contact_container {
     background: url(../images/contact_cover.png), lightgray 50% / cover no-repeat;
+    background-position: right;
     padding: 96px 94px 115px 0;
     display: flex;
     justify-content: flex-end;
@@ -634,4 +639,68 @@ header {
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+}
+
+.form_container {
+    display: flex;
+    gap: 40px;
+}
+
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.main_info_inputs {
+    display: flex;
+    column-gap: 8px;
+}
+
+.contact_form_input,
+.contact_form_textarea {
+    background: var(--card-bg-color);
+    color: var(--secondary-txt-color);
+    font-family: var(--font);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    border: none;
+    padding: 6px 8px;
+}
+
+.contact_form_input {
+    width: 50%;
+}
+
+.contact_form_textarea {
+    resize: none;
+    height: 103px;
+    margin-bottom: 8px;
+}
+
+.contact_form_btn {
+    padding-block: 8px;
+    border: none;
+    background: #C46A2B;
+    color: #FFF;
+    font-family: var(--font);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.map_container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 32px;
+    align-items: flex-end;
+}
+
+iframe {
+    width: 100%;
+}
+
+.contact {
+    color: var(--main-light-color);
 }
