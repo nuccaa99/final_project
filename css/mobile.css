@@ -69,7 +69,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 376px) {
 
     /* section types */
     .upper_section,
@@ -87,6 +87,19 @@
         line-height: 22px;
     }
 
+    /* guitars catalog container */
+    .guitars_catalog_container {
+        padding-block: 32px;
+    }
+
+    .filter_container {
+        padding-inline: 16px;
+    }
+
+    .catalog.card .card_img {
+        width: 343px;
+    }
+
     /* mail_article */
 
     .mail_article_title {
@@ -101,4 +114,14 @@
         font-weight: 700;
         line-height: 19px;
     }
+}
+
+
+@media (max-width: 366px) {
+
+    .catalog.card,
+    .catalog.card .card_img {
+        width: 100%;
+    }
+
 }
