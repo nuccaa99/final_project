@@ -148,38 +148,35 @@ header {
     line-height: 37px;
 }
 
-
 .img_wrapper.classical {
     background: url(../images/home/rec1.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
 
 .img_wrapper.acoustic {
     background: url(../images/home/rec2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
 }
 
 .img_wrapper.electric {
     background: url(../images/home/rec3.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 
 }
 
 .img_wrapper.base {
     background: url(../images/home/rec4.png);
+
+}
+
+
+.img_wrapper.classical,
+.img_wrapper.acoustic,
+.img_wrapper.electric,
+.img_wrapper.base {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+
+
 
 
 /* popular guitars section */
