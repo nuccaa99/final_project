@@ -53,6 +53,7 @@
         padding: 32px 40px;
 
     }
+
     .contact_wrapper {
         row-gap: 33px;
     }
@@ -95,16 +96,16 @@
     }
 
 
-   
+
 
     .map_container {
         row-gap: 32px;
         align-items: center;
     }
 
-    
 
-    
+
+
 }
 
 @media (max-width: 700px) {
@@ -164,7 +165,10 @@
     .mail_article {
         padding-block: 32px;
         row-gap: 24px;
+    }
 
+    .sub_form {
+        width: 85%;
     }
 
     .mail_article_title {
@@ -172,10 +176,6 @@
         line-height: 32px;
     }
 
-    .email_input {
-        width: 320px;
-
-    }
 
 
     /* catalog section */
