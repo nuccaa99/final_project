@@ -105,7 +105,7 @@ header {
 .hero_content_btn {
     border: none;
     border-radius: 4px;
-    background: #C46A2B;
+    background: var(--orange-color);
     display: flex;
     width: 36px;
     padding: 0px 6px;
@@ -263,7 +263,7 @@ header {
 
 .fa-solid.fa-star {
     font-size: 16px;
-    color: #C46A2B;
+    color: var(--orange-color);
 }
 
 .price_wrapper {
@@ -567,7 +567,7 @@ header {
 }
 
 .prev {
-    background: #C46A2B;
+    background: var(--orange-color);
 }
 
 .next {
@@ -682,7 +682,7 @@ header {
 .contact_form_btn {
     padding-block: 8px;
     border: none;
-    background: #C46A2B;
+    background: var(--orange-color);
     color: #FFF;
     font-family: var(--font);
     font-size: 16px;
