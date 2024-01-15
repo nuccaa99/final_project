@@ -32,12 +32,38 @@
 @media (max-width: 1025px) {
 
     /* header */
-    .burger_icon_link {
+    .burger_icon {
         display: block;
     }
 
     .header_nav {
         display: none;
+    }
+
+    /* burger menu */
+    .burger_menu {
+        display: flex;
+        flex-direction: column;
+        padding: 16px;
+        width: 200px;
+        row-gap: 8px;
+        background: var(--main-light-color);
+        position: fixed;
+        top: 96px;
+        left: -100%;
+        transition: .5s ease-in-out;
+    }
+
+    .show {
+        left: 0;
+    }
+
+    .burger_menu_list_item_link {
+        color: var(--orange-color);
+        font-family: var(--font);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 32px;
     }
 
 }

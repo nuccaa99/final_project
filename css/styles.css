@@ -26,7 +26,6 @@ header {
     align-items: center;
     padding: 16px 94px;
     background: var(--main-dark-color);
-
     position: fixed;
     max-width: inherit;
     width: inherit;
@@ -42,9 +41,12 @@ header {
     column-gap: 72px;
 }
 
-.burger_icon_link {
+.burger_icon,
+.close_icon,
+.burger_menu {
     display: none;
 }
+
 
 .header_list_item_link {
     color: var(--secondary-txt-color);
