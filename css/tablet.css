@@ -16,6 +16,90 @@
 
     }
 
+    /* contact container */
+    .contact_container {
+        padding: 48px 64px;
+    }
+
+}
+
+@media (max-width: 700px) {
+
+    /* section types */
+
+    .types_img_container {
+        padding-block: 32px;
+    }
+
+    .img_wrapper {
+        width: 170px;
+        height: 160px;
+        padding: 8px;
+    }
+
+    .img_wrapper h3 {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    /* footer */
+
+    .footer {
+        padding-block: 32px;
+        row-gap: 48px;
+    }
+
+    .footer_lists_container {
+        flex-direction: column;
+        row-gap: 40px;
+    }
+
+    .footer_list_wrapper {
+        align-items: center;
+    }
+
+    .footer_list {
+        align-items: center;
+    }
+
+
+}
+
+@media (max-width: 648px) {
+
+    /* guitars catalog container */
+    .guitars_catalog_container {
+        padding-block: 32px;
+        row-gap: 40px;
+    }
+
+    .catalog.card:nth-last-child(-n+12) {
+        display: none;
+    }
+
+    .catalog.card .card_img {
+        width: 343px;
+    }
+
+    .filter {
+        display: none;
+    }
+
+    .sort_btn {
+        display: none;
+    }
+
+    .sort_btn_mobile {
+        display: block;
+        border: none;
+        border-radius: 4px;
+        background: var(--secondary-txt-color);
+        display: flex;
+        padding: 4px 6px;
+        justify-content: center;
+        align-items: center;
+    }
+
 
     /* contact container */
 
@@ -65,91 +149,10 @@
         column-gap: 13px;
     }
 
-
-
-
     .map_container {
         row-gap: 32px;
         align-items: center;
     }
-
-
-
-
-}
-
-@media (max-width: 700px) {
-
-    /* section types */
-
-    .types_img_container {
-        padding-block: 32px;
-    }
-
-    .img_wrapper {
-        width: 170px;
-        height: 160px;
-        padding: 8px;
-    }
-
-    .img_wrapper h3 {
-        font-size: 16px;
-        line-height: 24px;
-    }
-
-    /* home footer */
-
-    .home_footer {
-        padding-block: 32px;
-        row-gap: 48px;
-    }
-
-    .footer_lists_container {
-        flex-direction: column;
-        row-gap: 40px;
-    }
-
-    .footer_list_wrapper {
-        align-items: center;
-    }
-
-    .footer_list {
-        align-items: center;
-    }
-
-
-}
-
-@media (max-width: 648px) {
-/* guitars catalog container */
-    .guitars_catalog_container {
-        padding-block: 32px;
-        row-gap: 40px;
-    }
-
-    .catalog.card:nth-last-child(-n+12) {
-        display: none;
-    }    
-
-    .filter {
-        display: none;
-    }
-
-    .sort_btn {
-        display: none;
-    }
-
-    .sort_btn_mobile {
-        display: block;
-        border: none;
-        border-radius: 4px;
-        background: var(--secondary-txt-color);
-        display: flex;
-        padding: 4px 6px;
-        justify-content: center;
-        align-items: center;
-    }
-
 }
 
 @media (max-width: 550px) {

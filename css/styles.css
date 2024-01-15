@@ -64,7 +64,7 @@ header {
 }
 
 .header_icons_btn {
-    background-color: transparent;
+    background: transparent;
     border: none;
     padding: 0;
     display: flex;
@@ -76,7 +76,9 @@ header {
 
 .hero {
     height: 480px;
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/home/hero.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.20) 0%, rgba(0, 0, 0, 0.20) 100%), url(../images/home/hero.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     display: flex;
     justify-content: center;
@@ -279,7 +281,9 @@ header {
 /* mail_article */
 
 .mail_article {
-    background: linear-gradient(0deg, rgba(26, 26, 26, 0.40) 0%, rgba(26, 26, 26, 0.40) 100%), url(../images/home/mailing_cover.png), lightgray 50% / cover no-repeat;
+    background: linear-gradient(0deg, rgba(26, 26, 26, 0.40) 0%, rgba(26, 26, 26, 0.40) 100%), url(../images/home/mailing_cover.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: center;
     padding-block: 106px;
     display: flex;
@@ -332,9 +336,9 @@ header {
 
 }
 
-/* home footer */
+/* footer */
 
-.home_footer {
+.footer {
     background: var(--card-bg-color);
     padding-block: 48px 64px;
     display: flex;
@@ -416,7 +420,7 @@ header {
 }
 
 
-/* types section */
+/* catallog page types section */
 
 .types_section {
     background: var(--secondary-dark-color);
@@ -584,10 +588,12 @@ header {
     line-height: 24px;
 }
 
-/* contact container */
+/* contact page contact container */
 
 .contact_container {
-    background: url(../images/contact_cover.png), lightgray 50% / cover no-repeat;
+    background: url(../images/contact_cover.png), lightgray 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-position: right;
     padding: 96px 94px 115px 0;
     display: flex;

@@ -96,10 +96,6 @@
         padding-inline: 16px;
     }
 
-    .catalog.card .card_img {
-        width: 343px;
-    }
-
     /* mail_article */
 
     .mail_article_title {
@@ -122,6 +118,15 @@
     .catalog.card,
     .catalog.card .card_img {
         width: 100%;
+    }
+}
+
+@media (max-width: 350px) {
+    /* contact container */
+
+    .contact_container {
+        padding: 32px 16px;
+
     }
 
 }

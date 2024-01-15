@@ -88,8 +88,10 @@
 
     /* contact container */
     .contact_container {
-        padding: 48px 64px;
+        padding-inline: 0;
         justify-content: center;
 
     }
+
+
 }
