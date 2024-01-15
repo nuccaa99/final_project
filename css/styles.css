@@ -42,8 +42,8 @@ header {
 }
 
 .burger_icon,
-.close_icon,
-.burger_menu {
+.burger_menu,
+.close_icon {
     display: none;
 }
 

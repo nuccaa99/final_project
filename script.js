@@ -3,13 +3,22 @@ let close = document.querySelector(".close_icon");
 let burgerMenu = document.querySelector(".burger_menu");
 
 burger.addEventListener("click", () => {
-    burger.style.display = "none";
-    close.style.display = "block";
-    burgerMenu.classList.add("show");
+    burgerMenu.classList.add("show_menu");
+
+    burger.classList.add("hide_icon");
+    close.classList.remove("hide_icon");
+
+    burger.classList.remove("show_icon");
+    close.classList.add("show_icon");
+
 })
 
 close.addEventListener("click", () => {
-    burger.style.display = "block";
-    close.style.display = "none";
-    burgerMenu.classList.remove("show");
+    burgerMenu.classList.remove("show_menu");
+    
+    burger.classList.remove("hide_icon");
+    close.classList.add("hide_icon");
+
+    burger.classList.add("show_icon");
+    close.classList.remove("show_icon");
 })
