@@ -537,12 +537,11 @@ header {
 
 }
 
-.types_list_item_btn:hover,
-.types_list_item_btn:focus {
+.focus,
+.types_list_item_btn:hover {
     background: var(--secondary-txt-color);
     color: var(--card-bg-color);
 }
-
 
 
 /* guitars catalog container */
@@ -736,7 +735,67 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
 }
+
+/* contact info box animation */
+.contact_info::after {
+    content: "";
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    background: var(--orange-color);
+    left: 0;
+    top: 0;
+}
+
+.contact_info::before {
+    content: "";
+    position: absolute;
+    width: 2px;
+    height: 0%;
+    background: var(--secondary-txt-color);
+    left: 0;
+    top: 0;
+}
+
+
+.contact_info:hover::after {
+    animation: border-top 2s .5s ease-in forwards;
+}
+
+.contact_info:hover::before {
+    animation: border-left 2s .5s reverse ease-out forwards;
+}
+
+@keyframes border-top {
+    10% {
+        background: var(--secondary-txt-color);
+    }
+
+    50% {
+        background: var(--main-light-color);
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes border-left {
+    10% {
+        background: var(--orange-color);
+    }
+
+    50% {
+        background: var(--main-light-color);
+    }
+
+    100% {
+        height: 100%;
+    }
+}
+
 
 .contact_info_content {
     display: flex;
@@ -807,6 +866,8 @@ header {
 .contact_form_input {
     width: 50%;
 }
+
+
 
 .contact_form_textarea {
     resize: none;
