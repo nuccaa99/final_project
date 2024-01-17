@@ -769,7 +769,7 @@ header {
 }
 
 @keyframes border-top {
-    10% {
+    25% {
         background: var(--secondary-txt-color);
     }
 
@@ -783,7 +783,7 @@ header {
 }
 
 @keyframes border-left {
-    10% {
+    25% {
         background: var(--orange-color);
     }
 
